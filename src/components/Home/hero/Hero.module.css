@@ -1,0 +1,166 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.hero-main {
+  background: #742886;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: ltr;
+}
+
+.hero-img {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-img img {
+  transform: scale(2);
+  max-width: 40vw;
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0rem 7.5rem;
+}
+.hero-text {
+  text-align: right;
+  color: white;
+  margin: 1.5rem 0rem;
+}
+.hero-text h1 {
+  margin-bottom: 2rem;
+  line-height: 3.5rem;
+}
+.hero-text p {
+  line-height: 2rem;
+  font-weight: 370;
+}
+.hero-text p span {
+  color: #ffc400;
+}
+.hero-btn {
+  display: flex;
+  flex-direction: column;
+}
+.hero-btn Button {
+  margin-bottom: 1rem;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1350px) {
+  .hero-wrapper {
+    margin: 0rem 6.5rem;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .hero-text h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero-wrapper {
+    margin: 0rem 5.5rem;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .hero-main {
+    flex-direction: column-reverse;
+  }
+
+  .hero-wrapper {
+    align-items: center;
+    margin: 0rem 9rem;
+  }
+  .hero-text {
+    text-align: center;
+    color: white;
+    margin: 0rem;
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+  }
+  .hero-btn {
+    margin-top: 1rem;
+  }
+  .hero-img {
+    margin-right: 10rem;
+    height: 70vh;
+  }
+  .hero-img img {
+    transform: scale(2);
+    max-width: 50vw;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .hero-wrapper {
+    margin: 0rem 6rem;
+  }
+  .hero-text h1 {
+    font-size: 1.7rem;
+  }
+  .hero-text p {
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+  }
+  .hero-btn {
+    margin-top: 2rem;
+  }
+  .hero-btn Button {
+    font-size: 1rem;
+  }
+  .hero-img {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .hero-wrapper {
+    margin: 0rem 2rem;
+  }
+  .hero-text h1 {
+    font-size: 1.6rem;
+  }
+  .hero-text p {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  .hero-img {
+    margin-right: 7rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .hero-text h1 {
+    font-size: 1.1rem;
+  }
+  .hero-text p {
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  .hero-btn Button {
+    font-size: 0.9rem;
+  }
+  .hero-img {
+    margin-right: 5rem;
+    height: 40vh;
+  }
+
+  .hero-img img {
+    transform: scale(3);
+    max-width: 40vw;
+  }
+}

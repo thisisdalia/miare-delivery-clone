@@ -1,0 +1,39 @@
+.main-comp {
+  background: #ffc400;
+  max-height: 100vh;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.comp-title {
+  text-align: center;
+  margin-top: 1rem;
+}
+.comp-title h1 {
+  color: #742886;
+}
+.comp-title p {
+  font-weight: 500;
+  line-height: 1.8rem;
+  margin: 0.8rem;
+}
+
+.comp-img img {
+  max-width: 90vw;
+  margin: 1rem;
+}
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+  .comp-title h1 {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+  .comp-title p {
+    font-weight: 400;
+  }
+}

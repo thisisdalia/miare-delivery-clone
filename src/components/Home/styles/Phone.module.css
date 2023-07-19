@@ -1,0 +1,70 @@
+.main-phone {
+  min-height: 90vh;
+  background: #ffc400;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.phone-img img {
+  height: 30rem;
+}
+.phone-wrapper {
+  max-height: 26rem;
+  max-width: 40rem;
+}
+.phone-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.phone-text h2 {
+  margin: 2rem 1rem;
+}
+.phone-text p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin: 1.5rem 2rem;
+}
+.phone-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.phone-btn button {
+  margin: 0.5rem 1rem;
+  background: #742886;
+  color: white;
+}
+.phone-btn button:hover {
+  background: #4c075ce0;
+}
+
+/* responsive */
+
+@media screen and (max-width: 920px) {
+  .phone-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .phone-text {
+    text-align: center;
+    align-items: center;
+  }
+  .phone-btn {
+    margin-bottom: 1rem;
+  }
+}

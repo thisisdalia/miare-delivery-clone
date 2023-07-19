@@ -1,0 +1,81 @@
+.main-service {
+  min-height: 100vh;
+  background: #742886;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.service-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.service-header {
+  text-align: center;
+  color: white;
+}
+.service-header h1 {
+  color: #ffc400;
+  font-size: 1.7rem;
+  line-height: 3rem;
+}
+.service-header p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0.5rem 2rem;
+  line-height: 2rem;
+}
+.service-box {
+  margin: 1rem;
+  display: flex;
+}
+.service-item {
+  margin: 1rem;
+  max-width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.service-item img {
+  background: #ffc400;
+  height: 7rem;
+  border-radius: 5rem;
+  padding: 1.5rem 1rem;
+}
+.service-item h4 {
+  color: #ffc400;
+  margin: 1rem;
+  word-spacing: 2px;
+}
+.service-item p {
+  margin: 0.5rem 2.5rem;
+  text-align: center;
+  line-height: 1.8rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.service-btn button {
+  margin: 1rem;
+}
+/* responsive */
+
+@media screen and (max-width: 1000px) {
+  .service-box {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 450px) {
+  .service-header h1 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  .service-header p {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,17 @@
+.main-about {
+  background: #ffc400;
+  height: 40vh;
+  direction: rtl;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.main-about p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0.5rem;
+  line-height: 2rem;
+}

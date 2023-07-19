@@ -1,0 +1,73 @@
+.main-rest {
+  background: #ffc400;
+  min-height: 80vh;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+.rest-wrapper {
+  margin-right: 3rem;
+}
+.rest-wrapper h1 {
+  margin-bottom: 2rem;
+}
+
+.rest-btn {
+  display: flex;
+  flex-direction: column;
+}
+.rest-btn button {
+  margin-bottom: 2rem;
+}
+.button {
+  background: #742886;
+  color: white;
+  margin-bottom: 2rem;
+}
+.button:hover {
+  background: #4c075ce0;
+}
+
+.rest-img {
+  max-width: 55vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.rest-img img {
+  max-width: 60vw;
+  background-image: url("../../../assets/home-assets/yellowBubble.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1080px) {
+  .rest-wrapper {
+    text-align: center;
+    margin-right: 0rem;
+  }
+  .rest-img {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .rest-wrapper h1 {
+    font-size: 1.5rem;
+  }
+  .rest-wrapper button {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .rest-img img {
+    transform: scale(1.6);
+    margin: 1rem 0rem;
+  }
+}

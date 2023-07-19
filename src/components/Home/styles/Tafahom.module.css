@@ -1,0 +1,56 @@
+.main-taf {
+  background: #742886;
+  min-height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  direction: rtl;
+}
+.taf-header {
+  color: white;
+}
+
+.taf-header p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 2rem;
+  margin: 1rem 10rem;
+}
+
+.taf-card {
+  background: #ffc400;
+  width: 75vw;
+  margin: 2rem 1rem;
+  border-radius: 2rem;
+}
+
+.taf-card h1 {
+  font-size: 1.5rem;
+}
+.taf-card p {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-align: right;
+  margin: 1.5rem 4rem;
+  word-spacing: 5px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 850px) {
+  .taf-header p {
+    margin: 1rem 5rem;
+    text-align: right;
+  }
+}
+@media screen and (max-width: 450px) {
+  .taf-header h1 {
+    font-size: 1.8rem;
+  }
+  .taf-header p {
+    margin: 1rem 3.5rem;
+  }
+}

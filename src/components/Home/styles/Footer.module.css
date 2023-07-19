@@ -1,0 +1,126 @@
+.main-footer {
+  background: #742886;
+  max-height: 70vh;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.footer-wrapper {
+  background: #ffc400;
+  min-height: 30vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 6rem;
+  border-top-right-radius: 6rem;
+}
+.footer-line1,
+.footer-line2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0.5rem 1rem;
+}
+
+.footer-address,
+.footer-policy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-address img {
+  height: 2rem;
+}
+.footer-policy img {
+  height: 3rem;
+}
+.footer-address p,
+.footer-policy p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 1rem 0.5rem;
+  line-height: 2rem;
+}
+.footer-btn1,
+.footer-btn2 {
+  display: flex;
+}
+.footer-btn1 button,
+.footer-btn2 button {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  height: 3.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.footer-btn1 button img {
+  height: 1.5rem;
+  margin: 0.5rem;
+}
+
+/* responsive */
+
+@media screen and (max-width: 800px) {
+  .footer-address,
+  .footer-policy {
+    flex-direction: column;
+  }
+  .footer-line2 {
+    flex-direction: column-reverse;
+  }
+
+  .footer-address img {
+    height: 1.5rem;
+    border: 2px solid #742886;
+    padding: 0.5rem;
+    border-radius: 2rem;
+  }
+  .footer-policy img {
+    margin-top: 1.5rem;
+    height: 2.5rem;
+  }
+  .footer-address p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .footer-policy p {
+    text-align: center;
+    font-size: 0.7rem;
+    margin: 0rem 1rem;
+  }
+
+  .footer-btn1,
+  .footer-btn2 {
+    margin: 0rem;
+  }
+  .footer-btn1 button,
+  .footer-btn2 button {
+    font-size: 0.9rem;
+    height: 2rem;
+  }
+  .footer-btn1 button img {
+    height: 1.2rem;
+    margin: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer-btn1 button,
+  .footer-btn2 button {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.8rem;
+    height: 4rem;
+    width: 9rem;
+  }
+  .footer-btn1 button img {
+    height: 1rem;
+  }
+}
